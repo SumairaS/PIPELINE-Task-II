@@ -1,4 +1,7 @@
-FROM alpine:3.16
+FROM alpine:3.9
 
 # Update the package list and install bash
 RUN apk update && apk add bash
+
+# Add a command to echo a message during the build process
+RUN echo "Congrats!!!!!!!!!!!!!!!"
