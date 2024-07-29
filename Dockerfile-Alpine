@@ -1,0 +1,4 @@
+FROM alpine:3.15
+
+# Update the package list and install bash
+RUN apk update && apk add bash
